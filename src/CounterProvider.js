@@ -26,3 +26,25 @@ export const CounterProvider = ({ children }) => {
     </CounterContext.Provider>
   );
 };
+
+
+//--------------------context api -----------------------------
+
+// import React, { createContext } from 'react';
+
+// // Create context
+// export const CounterContext = createContext();
+
+// // Create provider component
+// export const CounterProvider = ({ children }) => {
+   
+
+//    const Name = "Rahul"
+
+//   return (
+//     <CounterContext.Provider value={{ Name }}>
+//       {children}
+//     </CounterContext.Provider>
+//   );
+// };
+
